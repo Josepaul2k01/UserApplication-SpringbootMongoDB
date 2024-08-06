@@ -1,0 +1,64 @@
+# Ignore the HELP.md file
+HELP.md
+
+# Ignore the build output directories
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Spring Tool Suite specific files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans specific files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code specific files
+.vscode/
+
+# Log files
+*.log
+
+# Compiled class files
+*.class
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node specific files (if frontend is part of the project)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# MongoDB files (if any generated data or dumps are present)
+*.lock
+dump/
+data/
+
+# MacOS specific files
+*.swp
